@@ -1,0 +1,22 @@
+
+    <!doctype html>
+    <html lang="ja"
+        data-initial-resource-id="urn:metanorma-xml-id:toc8_05_03"
+        data-workspace-title="PLATEAU 1">
+      <head>
+        <meta charset="utf-8">
+        <!-- devtools
+        <script src="http://192.168.0.179:8097"></script> -->
+        <title data-react-helmet="true">8.5.3  原典資料リストのファイル仕様</title>
+        
+        
+        <link rel="stylesheet" href="/plateau-layout.css" />
+<link rel="stylesheet" href="/metanorma-site-content.css" />
+        <link rel="stylesheet" href="/bootstrap.css" />
+      </head>
+      <body >
+        <div id="app"><div style="isolation:isolate;color-scheme:light" class="_t8qIa_spectrum kDKRXa_spectrum kDKRXa_i18nFontFamily YqfL3a_spectrum--light _1DrGeG_spectrum--large XhWg9q_spectrum XhWg9q_spectrum--dark XhWg9q_spectrum--darkest XhWg9q_spectrum--large XhWg9q_spectrum--light XhWg9q_spectrum--lightest XhWg9q_spectrum--medium" lang="en-US" dir="ltr"><div class="style_browserBar"><header class="style_browserBarTitle"><h1>PLATEAU 1</h1></header></div></div><main id="resources"><div style="isolation:isolate;color-scheme:light" class="_t8qIa_spectrum kDKRXa_spectrum kDKRXa_i18nFontFamily YqfL3a_spectrum--light _1DrGeG_spectrum--large XhWg9q_spectrum XhWg9q_spectrum--dark XhWg9q_spectrum--darkest XhWg9q_spectrum--large XhWg9q_spectrum--light XhWg9q_spectrum--lightest XhWg9q_spectrum--medium" lang="ja-JP" dir="ltr"><div class="style_resource "><ul class="style_resourceBreadcrumbsNav"><li> <a href="/">PLATEAU 1</a></li><li> <a href="/toc8">8  メタデータ</a></li><li> <a href="/toc8/toc8_05">8.5  原典資料リストの仕様</a></li></ul><div class="layout_overall"><article id="content"><h1>8.5.3  原典資料リストのファイル仕様</h1><p about="urn:metanorma-xml-id:_73a049c1-d8e0-5fa2-9e44-194f6c4aabbe" id="urn%3Ametanorma-xml-id%3A_73a049c1-d8e0-5fa2-9e44-194f6c4aabbe">出力データ構造には、CSVを使用する。拡張子は、「.csv」とする。</p><p about="urn:metanorma-xml-id:_251d3d12-70e6-c67f-cc79-4360df5a28b6" id="urn%3Ametanorma-xml-id%3A_251d3d12-70e6-c67f-cc79-4360df5a28b6">(1)に示す記載項目の組を1レコードとし、以下に示す規則に従い出力する。</p><figure about="urn:metanorma-xml-id:_800fe0ce-9741-09f0-94cc-0d87ffca0383" id="urn%3Ametanorma-xml-id%3A_800fe0ce-9741-09f0-94cc-0d87ffca0383"><figcaption class="style_figCaption">表8-3&nbsp;— 原典資料リストのファイル仕様</figcaption><table><colgroup><col width="60%"><col width="40%"></colgroup><tbody><tr><th><p>文字コード</p></th><td><p about="urn:metanorma-xml-id:_ff450f44-602b-ee97-3081-ea0afbb408ce" id="urn%3Ametanorma-xml-id%3A_ff450f44-602b-ee97-3081-ea0afbb408ce">UTF-8 （BOM付）</p></td></tr><tr><th><p>改行コード</p></th><td><p about="urn:metanorma-xml-id:_ea7978d9-c919-604b-6dc7-3522e7500eea" id="urn%3Ametanorma-xml-id%3A_ea7978d9-c919-604b-6dc7-3522e7500eea">CRLF</p></td></tr><tr><th><p>区切り文字</p></th><td><p about="urn:metanorma-xml-id:_b918abf0-cc6b-1684-f4dd-c0e631c28561" id="urn%3Ametanorma-xml-id%3A_b918abf0-cc6b-1684-f4dd-c0e631c28561">カンマ（,）</p></td></tr><tr><th><p>ヘッダ行の有無</p></th><td><p about="urn:metanorma-xml-id:_8944bd1f-f693-f71e-c49e-55ac01a801f0" id="urn%3Ametanorma-xml-id%3A_8944bd1f-f693-f71e-c49e-55ac01a801f0">あり</p></td></tr><tr><th><p>ヘッダ行の行数</p></th><td><p about="urn:metanorma-xml-id:_d6ed230c-8a91-ebe1-d6d9-d6dee5f2e431" id="urn%3Ametanorma-xml-id%3A_d6ed230c-8a91-ebe1-d6d9-d6dee5f2e431">1</p></td></tr><tr><th><p>ヘッダ行の内容</p></th><td><p about="urn:metanorma-xml-id:_003eddff-150e-a4fe-68b9-e6dfa90facd3" id="urn%3Ametanorma-xml-id%3A_003eddff-150e-a4fe-68b9-e6dfa90facd3">原典資料リスト項目を使用する。</p></td></tr><tr><th><p>文字列でのダブルクォートの有無</p></th><td><p about="urn:metanorma-xml-id:_393283c7-4864-f302-7942-e1cf584031a5" id="urn%3Ametanorma-xml-id%3A_393283c7-4864-f302-7942-e1cf584031a5">あり</p></td></tr><tr><th><p>null値の指定方法</p></th><td><p about="urn:metanorma-xml-id:_4c813991-e906-71cb-0222-9ea6d2f3e32c" id="urn%3Ametanorma-xml-id%3A_4c813991-e906-71cb-0222-9ea6d2f3e32c">,, （区切り文字の連続）</p></td></tr><tr><th><p>1項目内で、複数の値を列挙する場合に使用する区切り文字</p></th><td><p about="urn:metanorma-xml-id:_fd79f908-14b4-47bb-962a-b6bf1c2af33c" id="urn%3Ametanorma-xml-id%3A_fd79f908-14b4-47bb-962a-b6bf1c2af33c">;（セミコロン）</p></td></tr><tr><th><p>禁則文字</p></th><td><p about="urn:metanorma-xml-id:_78f98296-c3d7-e914-cffe-9b339f6e8b56" id="urn%3Ametanorma-xml-id%3A_78f98296-c3d7-e914-cffe-9b339f6e8b56">指定しない</p></td></tr></tbody></table></figure></article><nav><ul></ul></nav></div></div></div></main></div>
+        <script src="/bootstrap.js"></script>
+      </body>
+    </html>
+  

@@ -1,0 +1,759 @@
+{
+    "adapterID": "file:/Volumes/MNFirelight/firelight/packages/metanorma-site-content",
+    "content": {
+        "primaryLanguageID": "ja",
+        "labelInPlainText": "4.4.3.2.4  uro:RailwayRouteAttribute",
+        "title": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "4.4.3.2.4  uro:RailwayRouteAttribute"
+                }
+            ]
+        },
+        "contentSchemaID": "clause",
+        "contentDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "title",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "4.4.3.2.4  uro:RailwayRouteAttribute"
+                        }
+                    ]
+                },
+                {
+                    "type": "figure",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_6708ba5a-1d66-f459-3c2c-50fa230362e6"
+                    },
+                    "content": [
+                        {
+                            "type": "figCaption",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "表4-201"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "attrs": {
+                                "colWidths": [
+                                    "25%",
+                                    "25%",
+                                    "50%"
+                                ]
+                            },
+                            "content": [
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "型の定義"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": "2",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "鉄道路線の情報。路線ごとに作成する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "上位の型"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": "2",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_b50d718e-fb2b-9994-944c-94441463b3fa"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "―"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "ステレオタイプ"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": "2",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_2676c527-acd5-5c6b-ca45-50cac2b46514"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "<< DataType >>"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": "3",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "属性"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "属性名"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "属性の型及び多重度"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "定義"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_32043bdc-7894-243f-50c7-03eec0887f01"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:operatorType"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_57e54992-af9e-a36e-d363-b4f6953a1b53"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:CodeType [1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_f97a5c0e-d80d-d310-306a-bdbed91bf5fd"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "鉄道事業者の区分。コードリスト（RailwayRouteAttribute_operatorType.xml）より選択する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_a57b22b8-1d54-ccb7-e01a-d3b393586f1e"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:operator"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_1a0f7905-74c1-8fc2-76d6-ab43df7c50ba"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "xs:string [1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_4edb4891-fd59-93e1-9c4c-d48805f93ce3"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "鉄道事業者名。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_03ba0c52-6a51-808d-eb5e-e2e475210fb7"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:alternativeName"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_57b024ed-1819-4be2-2f44-8cac02a0d862"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "xs:string [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_157e1111-fa14-289f-d471-ee32535267cb"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "路線名称（gml:name）以外に使用されている愛称等の別称。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_d5527b15-daa5-e799-aa6a-a4af1c2eec46"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:railwayType"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_c9fb527b-585c-dbe6-eb39-d1221a374bbe"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:CodeType [1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_72ebcc65-ad0d-86a9-94cc-1c4a2dc7908f"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "鉄道の区分。コードリスト（RailwayRouteAttribute_railwayType.xml）より選択する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_100e02bd-1ae7-57cc-0ac6-dd6a9edff094"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:startStation"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_ff00668a-d8dd-3a74-8479-c879b748f6f2"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "xs:string [1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_59db14cc-2844-9f1c-a67a-3617558aa097"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "鉄道路線の起点となる駅の名称。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_613fbf0a-8d40-a9ee-19cb-731b237cd44c"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:endStation"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_7f34562f-43a2-176a-afbb-feee73a33c94"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "xs:string [1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_8c91e747-9794-078a-ee5a-f2f73b36a0c9"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "鉄道路線の終点となる駅の名称。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,491 @@
+{
+    "adapterID": "file:/Volumes/MNFirelight/firelight/packages/metanorma-site-content",
+    "content": {
+        "primaryLanguageID": "ja",
+        "labelInPlainText": "4.9.3.2.6  uro:LandSlideRiskAttribute",
+        "title": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "4.9.3.2.6  uro:LandSlideRiskAttribute"
+                }
+            ]
+        },
+        "contentSchemaID": "clause",
+        "contentDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "title",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "4.9.3.2.6  uro:LandSlideRiskAttribute"
+                        }
+                    ]
+                },
+                {
+                    "type": "figure",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_ac11c386-6bcf-a557-6ad3-51f474dfbbf7"
+                    },
+                    "content": [
+                        {
+                            "type": "figCaption",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "表4-323"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "attrs": {
+                                "colWidths": [
+                                    "25%",
+                                    "25%",
+                                    "50%"
+                                ]
+                            },
+                            "content": [
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_8d523602-21a9-03b7-cb16-3e871d713c31"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "型の定義"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": "2",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_b14278e0-7dd2-c74d-fbe5-dbcee64e2b3c"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "土砂災害警戒区域及び土砂災害特別警戒区域に存在する構造物に、いずれの区域に含まれているかを属性として付与する。一つの構造物に、複数の「区域区分」が重なっている場合は、以下の優先順位に基づき、最も優先順位の高い区域区分のみを付与する。区域区分の優先順位は優先順位の高いほうから、  　土砂災害特別警戒区域（指定済）  　土砂災害警戒区域（指定済）  　土砂災害特別警戒区域（指定前）  　土砂災害警戒区域（指定前） とする。 なお、一つの構造物に、複数の「現象区分」が重なっている場合は、それぞれを土砂災害リスク属性として記述する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "上位の型"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": "2",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_71631cb9-bd44-5e8d-58db-7cdbf89dd137"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:DisasterRiskAttribute"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "ステレオタイプ"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": "2",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_508d0b09-372a-92e6-c01e-ad5caecf27ce"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "<< DataType >>"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": "3",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "継承する属性"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "属性名"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "属性の型及び多重度"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "定義"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_afa64636-7b02-a35b-72d7-016ce584ba0e"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:description"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_48ce8e8f-377b-d7cd-4f79-bb8b41379fbc"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:CodeType [1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_011afdfe-96f3-e20d-1c67-572af6254734"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "発生が想定されている災害の種類。コードリスト（LandSlideRiskAttribute_description.xml）より選択する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": "3",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "自身に定義された属性"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_6d796d7f-250e-8297-4062-a6055261268b"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:areaType"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_d8900bfa-8eed-bc9c-0f70-7593b1b67748"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:CodeType [1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_58dc17eb-ee0f-1e48-3840-9bad83962df9"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "土砂災害警戒区域に含まれているのか、土砂災害特別警戒区域に含まれているのかの区分。コードリスト（LandSlideRiskAttribute_areaType.xml）より選択する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

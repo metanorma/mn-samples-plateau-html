@@ -1,0 +1,95 @@
+{
+    "adapterID": "file:/Volumes/MNFirelight/firelight/packages/metanorma-site-content",
+    "content": {
+        "primaryLanguageID": "ja",
+        "labelInPlainText": "9.7.3.1  ファイルの境界線上に存在する地物",
+        "title": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "9.7.3.1  ファイルの境界線上に存在する地物"
+                }
+            ]
+        },
+        "contentSchemaID": "clause",
+        "contentDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "title",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "9.7.3.1  ファイルの境界線上に存在する地物"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_c3171c89-a977-c39f-b12c-ec9bcec73fbc"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "ファイル単位となる国土基本図の図郭の境界線上に存在する地物は分割しない。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_e9052c65-48e9-d397-f62f-b9759c55cef5"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "複数の図郭に跨って存在する地物は、それぞれの図郭に平面投影した形状が含まれる面積又は延長の割合を算出し、この割合が最も大きい図郭に対応するファイルに含む。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_f1593d6c-f9e8-058c-a18f-c0e836a0a622"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "面積又は延長は、小数点2桁（3桁目で四捨五入、単位はm2又はm）で比較する。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_827796fc-133f-a5eb-8cf3-26c12e058575"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "面積又は延長が同じ場合は、"
+                        },
+                        {
+                            "type": "external_link",
+                            "attrs": {
+                                "href": "https://psgsv2.gsi.go.jp/koukyou/jyunsoku/"
+                            },
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "付録７ 公共測量標準図式"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "　第84条第4項が定める国土基本図の図郭の区画名の若い方（左上）とする。"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

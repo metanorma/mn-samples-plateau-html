@@ -1,0 +1,2891 @@
+{
+    "adapterID": "file:/Volumes/MNFirelight/firelight/packages/metanorma-site-content",
+    "content": {
+        "primaryLanguageID": "ja",
+        "labelInPlainText": "4.11.1.4.2  橋梁モデル（LOD3）の定義",
+        "title": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "4.11.1.4.2  橋梁モデル（LOD3）の定義"
+                }
+            ]
+        },
+        "contentSchemaID": "clause",
+        "contentDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "title",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "4.11.1.4.2  橋梁モデル（LOD3）の定義"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_555a422d-c8a3-985e-f2b5-bc939c09107f"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "橋梁モデル（LOD3）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。"
+                        }
+                    ]
+                },
+                {
+                    "type": "figure",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_5e36c6fe-8cd9-6b4a-f6ee-5e9fa230bd3b"
+                    },
+                    "content": [
+                        {
+                            "type": "figCaption",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "表4-503"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "attrs": {
+                                "colWidths": [
+                                    "9.2105%",
+                                    "3.9473%",
+                                    "9.2105%",
+                                    "9.2105%",
+                                    "21.0526%",
+                                    "26.3157%",
+                                    "21.0529%"
+                                ]
+                            },
+                            "content": [
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            }
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "地物型"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "空間属性の型"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "取得基準"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "取得方法"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "補足"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_a714634d-779f-f1c0-26da-790b61ffadeb"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD3"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_b2edb0ab-6ca7-a0c2-d140-80a3b56756ac"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "●"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_66a8feb1-5015-ccb0-ba59-2e385c12958b"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Bridge"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_604401ac-c35c-1aa5-594d-c34ec6a435da"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Solid又はMultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_a97681c4-24b8-57ba-5589-70fc93fa3036"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "道路橋、鉄道橋、桟道橋、横断歩道橋、ペデストリアンデッキ、徒橋、跨橋橋"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_23d63da2-a552-b283-a206-4fbdd2ef6daa"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "屋根面（RoofSurface）、外壁面（WallSurface）、底面（GroundSurface）、屋外床面（OuterFloorSurface）、屋外天井面（OuterCeilingSurface）及び閉鎖面（ClosureSurface）の集まり、又は、これらを境界面とする立体を作成する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_f3e563f0-35e0-29d2-91ea-c1a0f6efe854"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "道路橋、桟道橋及び鉄道橋は、床版及び主桁を対象とする。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_6108fc8c-5002-45d7-b460-c7feb50e8278"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "横断歩道橋、ペデストリアンデッキ、徒橋、跨線橋は、上部工、階段、及び踊り場を対象とする。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_1626bc32-6e4d-b4e8-9649-4c8a0c72d958"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD3"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_26b9bf41-5051-7e56-ae49-19f60edf0817"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "■"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_1dc5916d-0202-8425-f5d6-b1c2ca8386e4"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "BridgePart"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_35818951-aa4e-568b-6778-48557e98ad8b"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Solid又はMultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_44091c2f-0f5c-9232-19f2-87496aa00b10"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "一つの橋梁を、主題属性の異なる複数の部分に分ける場合に必須とする。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_c6dddd75-5aea-96ec-a2bc-7a26338f8037"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "階段やスロープのある横断歩道橋、ペデストリアンデッキ及び跨線橋の場合は必須とする。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_719878e9-f86f-0b13-7068-0d399eac9407"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "屋根面（RoofSurface）、外壁面（WallSurface）、底面（GroundSurface）、屋外床面（OuterFloorSurface）、屋外天井面（OuterCeilingSurface）及び閉鎖面（ClosureSurface）を境界面とする立体を作成する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_cd84cdfa-f855-08db-aa02-a15a6300ded6"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "取得方法が異なる場合は必須とする。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_46b611a8-fa26-3452-db8e-c859c6047995"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "本体を構造上分けて作成したい場合は任意とする。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_d7b3e217-6523-10f9-65a6-a69f0164e77b"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "横断歩道橋、ペデストリアンデッキ及び跨線橋の場合は階段、スロープ、踊り場を分ける。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_2ed48ad6-7c4e-b618-86d4-172fb424f57b"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "階段の段を表現する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_7702a580-b106-b405-ec0d-7debf8a91f05"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "道路橋、桟道橋及び鉄道橋の場合、階段、スロープ、踊り場は付属物（BridgeInstallation）となる。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_33ce522c-bc68-7d12-32ee-eafde41049cf"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD3"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_c653b1dd-d34e-e832-3868-1a6553a0ef1f"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "■"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_ee533fb9-fee8-1ed0-79bc-6e6ed5a8ffea"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "RoofSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_431eac75-186e-dc2b-f652-aa34a41a1097"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "MultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_2be120fa-a256-0107-7c3a-943ef9a1ef38"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "屋根が存在する場合"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_1f3604ed-61c6-a827-0fa1-240241d8bb43"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "屋根の外周を取得し、棟（屋根の頂部であり、屋根の分水嶺となる箇所）及び谷（屋根と屋根のつなぎの谷状の部分）で区切る。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_1b016ab4-b1b3-0a3b-ff77-e6e0f6ca36e6"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "区切った面の各頂点に屋根の高さを与える。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_22f08957-e165-63ab-870a-92fc6cccd32d"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "屋根の棟及び谷で区切ることにより、屋根の傾斜や向きを再現する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_40cb62ee-09f3-747f-c80d-99ec5c87bb95"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_64fae062-3623-db6c-ede9-8a4d37588e4d"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD3"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_916ebfbb-f3ce-3169-d8d6-666370a2a6f8"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "●"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_e8222e18-3e4a-9a66-b645-7fc9772ce647"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "GroundSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_f2490336-8232-8783-de5c-ca89bb90d161"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "MultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            }
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_8aa24a12-bac3-253c-7193-3b4cbcc327f6"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "橋梁の側面と、地表との交線により囲まれた面を取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_9ecb30b8-777b-1794-debf-f1eb975ef419"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "面の各頂点に、地表面の高さを与える。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_217c00b5-f5c7-1e55-7fe2-6cab37191d2f"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD3"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_6e650ece-1e61-3c37-65b9-c966356c3dba"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "●"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_1cdc4858-5a74-47cc-fa7e-4d710c14af89"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "WallSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_99682b3f-ce10-e2ce-b4e8-06d1e3b90311"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "MultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            }
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_91a45bfd-c81d-fa70-e7ea-43a374245bf7"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "橋梁の外形のうち、屋根面（RoofSurface）、底面（GroundSurface）、屋外床面（OuterFloorSurface）、屋外天井面（OuterCeilingSurface）及び閉鎖面（ClosureSurface）以外の面を取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_41ffb444-7118-6cb8-c3ae-050146e28c7c"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD3"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_32d1d158-12ea-a89d-4ff1-2b197b8e2a47"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "■"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_949523b5-7bf4-d136-958e-ae37c6578de3"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "ClosureSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_0c5cab26-304c-49af-19b2-45bb1c5e0f0a"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "MultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_fed2194e-ee47-eedf-af53-85d09f09d046"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "窓や扉のない開口部がある場合に使用する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_689c7eaf-d604-a0a8-abce-9a2ff39c22b5"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "開口部の外周を面として取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_c8c615f1-1481-c1da-41d9-541052649d4c"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD3"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_99f68af9-3420-2a06-0346-d0826debbf7c"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "■"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_3ae29240-bcf2-88b1-a779-018ac90d71c5"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "OuterCeilingSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_e8787cfe-a6b0-894b-333f-c7b612ec65fe"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "MultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_3c3f714c-7a9e-682c-fa4d-06196ef688c8"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "WallSurfaceとの区分が必要な場合に必須とする。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_089c181b-e244-92e8-fb99-b09633b7e701"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "橋梁の床版・主桁部分の外壁のうち、下向きとなる面の外周を取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_ef1de7da-6e2d-c1fe-3d00-2d1c9d573fea"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "面の各頂点に、外壁の高さを与える。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_7b4b8473-8912-d321-c1de-ea946445442b"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD3"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_b46d8cd7-e5ae-ef5e-e24a-fb8d69c37d5c"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "■"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_13ece60e-8f43-99ca-af96-fbcdc3bd39e7"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "OuterFloorSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_415b6bd6-4683-d04b-a1d8-7237889f8f9b"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "MultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_37af7299-3234-96e2-9442-8b0160c9b00c"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "屋根が存在しない場合"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_39355f46-60cf-97fc-3886-fdfd4012174f"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "上部工の外周を取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_a5fe429a-5009-83a6-9ffc-177cf9f1c7fe"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "床版の外周を取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_55e0be9f-31e7-0f3a-e703-8d3e0368d5d2"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "外周の各頂点に床版の高さを与える。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": "3",
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_67e9de26-e624-28b2-6c03-aaeadac649e9"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD3"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": "3",
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_6baf2f6f-ab70-571f-30c9-90e5871e35ed"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "●"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": "3",
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_05e1379c-242c-e7c8-fdf7-14ba476d2c44"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Bridge Construction  Element"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_800e13be-5185-dbec-3ac9-73b0dd107428"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "MultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_48e25264-b9ea-381e-09c7-b5cf37b977ca"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "トラス、アーチ、パイロン"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_4291778e-aa74-dcce-fe9f-911026db1a71"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "【道路橋、鉄道橋の場合】"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_e1bc9b19-f729-bc20-ce88-8cb6da3e61f9"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "構造物の外形（外側から見える形）を構成する面を取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_da119a9e-7fb7-ec93-7faf-b1743b104606"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "面の各頂点に構造物の高さを与える。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_d86e64d9-be81-28fa-fd58-5e9d93ef0891"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_69366b7a-c418-9919-9f0c-17e750f2b10f"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "MultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_bb65b315-2653-74f3-393a-7294a1d39f5d"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "吊材、ケーブル"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_55fd7856-7ffb-124c-42de-ae91cfbfcfe8"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "同一の支間に存在する吊材、同一のパイロンに定着されたケーブルを包含する面として取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_3ecdb012-a9cf-f2cb-62a8-de4629c6e085"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "面の各頂点に構造物の高さを与える。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_e7534f1b-270b-e144-ab11-25fb362e82df"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "一本ずつ取得せず、まとめて取得してもよい。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_70a2c231-3bc8-77fc-9d31-43fd5ff0f480"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "MultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_5b39fa2b-0571-4544-d39d-a3dd07104ae8"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "橋脚、橋台"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_d47bb9f6-dc94-b2e2-fd64-5d2e5a4e529f"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "構造物の外形（外側から見える形）を構成する面を取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_555acfdc-7267-dec9-c4fc-75ee0a1f260c"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "面の各頂点に構造物の高さを与える。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_d95c6a7e-412e-0292-16e5-cffcf2bf200d"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": "2",
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_0fef7db0-4901-e870-79e1-ea50fc16bfe6"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD3"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": "2",
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_98d4df01-bb71-879f-87d0-86f59108d2b2"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "●"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": "2",
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_57994211-46b3-0136-e531-be8b71c7cc29"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "BridgeInstallation"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": "2",
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_812c7b0b-3177-8ca9-a05e-a061a176f735"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "MultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_cf7d9a85-ad74-8405-8708-c8b94af29f15"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "高欄、地覆、親柱、庇、庇の柱、エレベータ、エスカレータ、手すり"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_0ee5dc94-ce8a-deb5-a32d-e40362d0e9af"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "屋外付属物の外形（外側から見える形）を構成する面を取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_110ba1d7-14c4-4862-0318-2200ed7a05b4"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "面の各頂点に屋外付属物の高さを与える。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_69d441c9-5fb7-75eb-9922-c13c8cc27ced"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "階段、踊り場、スロープ"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_3ecf0eba-8138-eca4-7a09-54cf6a48f01c"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "【道路橋の場合】"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_d67c3609-86bd-634c-c857-d81661f2314b"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "屋外付属物の外形（外側から見える形）を構成する面を取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_5f0cb788-d95b-0967-4dbd-0da2c897ff36"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "面の各頂点に屋外付属物の高さを与える。ただし、階段は上端と下端をつなぐスロープとして表現する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_f7d2306e-23d3-9cd9-91c0-2a39fb418eb9"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "横断歩道橋、ペデストリアンデッキ及び跨線橋の場合は階段、踊り場、スロープはBridgePartとして取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_fdeba39b-6278-5e67-27d8-4cf63f2db437"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD3"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_2cee39a2-e802-fd25-6b67-00dadeb45814"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "〇"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_49d8b5f8-47e2-9ae2-4d9e-ef5096d2ab45"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Door"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_96049949-5735-8c57-d83d-768db82fa850"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "MultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_ba3f528f-ae33-6eaf-a3a9-c102909d1fe7"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "ユースケースの必要に応じて作成する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_ab0ef151-de09-f144-2a7a-87cef47a9bb8"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "扉（Door）の外周を取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_541a26cb-0482-aa8e-8cd5-5bccd2050007"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "LOD3"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_c02dd99b-8698-626c-fa27-e4921fc1226f"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "〇"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_41a08340-e6f7-161f-33ec-bc439fa1a2fa"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Window"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_4e9d5eb4-97c9-98c3-f6e3-e25a857679ad"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "MultiSurface"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_7570a302-06fd-d74f-0235-72602ffb9bd5"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "ユースケースの必要に応じて作成する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_2fbf044f-c535-5048-6429-0ba54b9f9048"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "窓（Window）の外周を取得する。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

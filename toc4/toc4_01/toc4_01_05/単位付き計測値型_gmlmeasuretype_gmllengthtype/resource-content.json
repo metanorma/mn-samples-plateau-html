@@ -1,0 +1,79 @@
+{
+    "adapterID": "file:/Volumes/MNFirelight/firelight/packages/metanorma-site-content",
+    "content": {
+        "primaryLanguageID": "ja",
+        "labelInPlainText": "4.1.5.8  単位付き計測値型（gml:MeasureType, gml:LengthType）",
+        "title": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "4.1.5.8  単位付き計測値型（gml:MeasureType, gml:LengthType）"
+                }
+            ]
+        },
+        "contentSchemaID": "clause",
+        "contentDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "title",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "4.1.5.8  単位付き計測値型（gml:MeasureType, gml:LengthType）"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_198a2c08-549b-f59c-40ba-387d393809df"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "uom属性を用いて、数値の単位を記載する。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_cbc03f4e-37a8-f1bd-da2d-6319685fa462"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "原則として、長さの単位はm、面積の単位はm2、時間の単位はhour（時間）とする。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_fc0543b3-85f8-c4e0-6362-0a2e93185c6e"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "計測により新規に取得する場合には、小数点1桁とする（小数点2桁目を四捨五入）。ただし、原典資料において小数点2桁目以降の記載があり、これとの一致が必要となる場合には、この限りではない。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_7efc155f-0e0c-571f-8775-c64932d34b1f"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "値が不明な場合は-9999とする。このときの単位は、属性ごとに指定された単位とする。"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

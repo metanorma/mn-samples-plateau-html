@@ -1,0 +1,2508 @@
+{
+    "adapterID": "file:/Volumes/MNFirelight/firelight/packages/metanorma-site-content",
+    "content": {
+        "primaryLanguageID": "ja",
+        "labelInPlainText": "4.2.3.1.3  bldg:Room",
+        "title": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "4.2.3.1.3  bldg:Room"
+                }
+            ]
+        },
+        "contentSchemaID": "clause",
+        "contentDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "title",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "4.2.3.1.3  bldg:Room"
+                        }
+                    ]
+                },
+                {
+                    "type": "figure",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_45186816-7157-f03f-8df3-5632c612324d"
+                    },
+                    "content": [
+                        {
+                            "type": "figCaption",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "表4-32"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "attrs": {
+                                "colWidths": [
+                                    "25%",
+                                    "25%",
+                                    "50%"
+                                ]
+                            },
+                            "content": [
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_e4bd1a9c-85e5-cd8c-7ac0-5af4ff674bb8"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "型の定義"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": "2",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_57e78a82-c49e-bc82-8fbf-a31a85a18e31"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "壁、間仕切り、床、天井などで仕切られ、生活の場などに用いられる、建物内部の隔てられた空間の区画（部屋）。"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "figure",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_e29d51e5-b5f0-d2d4-9e22-25659c37318a"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "figCaption",
+                                                            "content": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "bldg:Roomの例"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "image",
+                                                            "attrs": {
+                                                                "src": "data:image/png;base64,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"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_217255e3-747c-c457-b6be-52e2872724b2"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:Roomは、bldg:Buildingに含まれる地物として記述する。このとき、bldg:Roomは、複数の地物の集まりとして表現する。bldg:Roomに含まれる地物とは、以下である。 部屋を区切る境界面（bldg:_BoundarySurfaceの下位型） 部屋に付属する固定的な設備（bldg:InteriorBuildingInstallation） 部屋の中に設置された移動可能な家具（bldg:BuildingFurniture）  さらに、部屋を区切る境界面及び部屋に付属する固定的な設備は、開口部（bldg:_Opening）の下位型を含むことができる。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "上位の型"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": "2",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_a6fe672c-942a-c1f6-f689-4ae036bd588f"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:_CityObject"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "ステレオタイプ"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": "2",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_41224c7a-d23d-f88d-67a6-e6d24d786868"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "<< FeatureType >>"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": "3",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "継承する属性"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "属性名"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "属性の型及び多重度"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "定義"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_92dc0251-410c-b7f4-7806-c4d45a24dd2d"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:description"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_b04b5452-6e4b-a2ee-3080-5640b3a4e633"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:StringOrRefType [0..1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_5b36905e-2631-b190-ec84-5cce09f003ad"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "部屋の概要。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_2da38802-3cc2-aaa0-af5f-8844da062605"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:name"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_c225ebb5-bf41-432e-03f5-bf95201268db"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:CodeType [0..1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_2ff08fa2-2020-634a-311c-faa6e3febc9e"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "部屋を識別する名称。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "(gml:boundedBy)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_d9920bd6-e5ee-4ec8-fce3-273ec4365efa"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:Envelope [0..1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_9f48affe-3ae4-2045-f384-3bedfb9f0789"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "部屋の範囲及び適用される空間参照系。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_7e4e2297-049a-69c2-6c85-bac7eeebf7b3"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "core:creationDate"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_1b0d12d0-35f7-5a3d-876f-6067cae6403d"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "xs:date [0..1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_89207e5f-de61-fa55-88ec-5adee4a9cd26"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "データが作成された日。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_d53ac1fa-86ab-53d1-8e12-a4d2612b8999"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "core:terminationDate"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_2639159d-2994-8fb3-11db-dc0c559e1397"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "xs:date [0..1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_a32b67d9-6609-07b4-2076-275626dead72"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "データが削除された日。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "(core:relativeToTerrain)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_93d6b0c6-102f-3f8d-8b57-e5e1a131c501"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "core:RelativeToTerrainType [0..1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_bbe899e3-6af1-87e5-5a48-245e656ec0a3"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "地表面との相対的な位置関係。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "(core:relativeToWater)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_0443f78a-84cc-7d0b-f09f-34f5dfb4320d"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "core:RelativeToWaterType [0..1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_c89607ec-ea85-345f-880c-968bec634c37"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "水面との相対的な位置関係。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": "3",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "自身に定義された属性"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_1321053c-79a4-7582-9771-5d67a73a7918"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:class"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_588ddf59-1938-b857-5eae-550463a77708"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:CodeType [0..1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_bf165556-ceb5-7f41-439c-753fe84f1e29"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "部屋の形態による区分。コードリスト（Room_class.xml）より選択する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_9c9a4764-0bbf-d941-e4a4-6854bf7ccb3b"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:function"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_7a6ee16f-482b-3110-39e4-2c5314a26d74"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:CodeType [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_e54da4ae-7061-c9f0-ea81-b69416e248b4"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "部屋の主たる働き。コードリスト（Room_function.xml）より選択する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "(bldg:usage)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_451a48ec-0b4a-1566-aba3-e27011487ce5"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:CodeType [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_4a1acf31-3372-e923-e1e8-11e8ea1d439a"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "部屋の主な使い道。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": "3",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "継承する関連役割"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "関連役割名"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "関連役割の型及び多重度"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "定義"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "(gen:stringAttribute)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_49e27a6c-8108-8310-3b02-9f9b8c436b48"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gen:stringAttribute [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_103b3408-6a52-bf97-b520-15005b88fe17"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "文字列型属性。属性を追加したい場合に使用する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "(gen:intAttribute)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_f310f994-3d8a-85c2-f654-7cad5c41acb3"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gen:intAttribute [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_a7ff2861-4363-0b34-d25c-cd766898b82e"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "整数型属性。属性を追加したい場合に使用する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "(gen:doubleAttribute)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_c0e227e6-da79-0faa-2781-3012ca767642"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gen:doubleAttribute [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_f47b1486-88e7-542d-c412-9e649f8dad9f"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "実数型属性。属性を追加したい場合に使用する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "(gen:dateAttribute)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_e5395a2c-e3ec-4209-8618-a86eeaa7a82a"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gen:dateAttribute [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_7de5c35c-fc89-c169-9669-daab019877c4"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "日付型属性。属性を追加したい場合に使用する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "(gen:uriAttribute)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_ba1ec672-85fe-386c-16c7-1bd0ea5bd077"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gen:uriAttribute [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_5e235511-fac9-e2ef-dccf-f6161b4e1012"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "URI型属性。属性を追加したい場合に使用する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "(gen:measureAttribute)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_3aae7df0-a30a-ff9e-7385-8921cbc58bd3"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gen:measureAttribute [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_82fc1754-ad8a-dd33-6265-6556e31f207f"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "単位付き数値型属性。属性を追加したい場合に使用する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "(gen:genericAttributeSet)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_9a2544f3-2f52-30b3-b5f6-8f9771a524e4"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gen:GenericAttributeSet [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_7937edb5-4e2f-d18d-e107-daaea105a4ba"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "汎用属性のセット。属性を追加したい場合に使用する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": "3",
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "自身に定義された関連役割"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "関連役割名"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "関連役割の型及び多重度"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "定義"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_b49bbbc8-c003-d63a-8c57-b77113ffac68"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:lod4Solid"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_31724ddb-31eb-632a-4c79-e90c61a3e2b5"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:Solid [0..1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_eb16b946-bc36-0f99-1836-b9d0316a0fce"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "部屋の外形を示す立体。"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_3eec28fa-4d46-8f59-4fe5-08bafda4587e"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:Solidを構成するgml:Polygonは、以下のいずれかの地物のLOD4幾何オブジェクトに含まれなければならない。"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_cbce8695-ab20-ed3b-05a8-b686d98df029"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "境界面（bldg:_BoundarySurface）及びその開口部（bldg:_Opening） ただし、境界面は、このbldg:Roomが、関連役割bldg:boundedByにより  参照する境界面であること。また、開口部は、その境界面に包含されていること。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_56d6c2ac-3ff3-37b8-0284-7f400e6deb16"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "屋内付属物（bldg:IntBuildingInstallation）の境界面及びその開口部ただし、屋内付属物は、このbldg:Roomが、関連役割bldg:roomInstallationにより参照する付属物であること。また、開口部はその付属物に包含されていること。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_f82bf6d9-86fe-95ba-3f10-b34d7c37a146"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:lod4Solid 又はbldg:lod4MultiSurface のいずれかを必須とするが、bldg:lod4Solidにより記述することを基本とする。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "(bldg:lod4MultiSurface)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_ffcf1346-34a2-87db-121f-d4bae65a2564"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:MultiSurface [0..1]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_08525848-c43e-9c50-9f60-6d2232ae5f50"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "部屋の主要構造の外形を示す面の集まり。"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_858f2986-e88b-1f56-74a1-1828078d6eda"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "gml:MultiSurfaceを構成するgml:Polygonは、以下のいずれかの地物のLOD4幾何オブジェクトに含まれなければならない。"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "bullet_list",
+                                                    "content": [
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_0e9cfa13-4c3f-932b-a1d6-265c9d6ad09b"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "境界面（bldg:_BoundarySurface）及びその開口部（bldg:_Opening）ただし、境界面は、このbldg:Roomが、関連役割bldg:boundedByにより参照する境界面であること。また、開口部は、その境界面に包含されていること。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "list_item",
+                                                            "content": [
+                                                                {
+                                                                    "type": "paragraph",
+                                                                    "attrs": {
+                                                                        "resourceID": "urn:metanorma-xml-id:_029572fe-25b2-3537-0fe3-a0f82fbeca8f"
+                                                                    },
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "屋内付属物（bldg:IntBuildingInstallation）の境界面及びその開口部ただし、屋内付属物は、このbldg:Roomが、関連役割bldg:roomInstallationにより参照する付属物であること。また、開口部はその付属物に包含されていること。"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_dc43c646-ad39-0b74-43dc-c63352c93fb8"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:lod4Solidを作成しない場合は、bldg:lod4MultiSurfaceを必ず作成する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_98feec1e-cf1c-0688-6216-2742a040afc7"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:boundedBy"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_fd732087-6e86-f45d-c718-ed74033a0dfa"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:_BoundarySurface [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_e2e01c49-0bad-1b96-2ee2-b1998de071e4"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "部屋の外形を示す境界面。"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_730bc26a-0286-1a62-8136-8e88d9e3ff37"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "境界面は、内壁面（bldg:InteriorWallSurface）、天井面（bldg:CeilingSurface）、床面（bldg:FloorSurface）又は閉鎖面（bldg:ClosureSurface）のいずれかでなければならない。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_1332cfc0-1b2c-f39f-0e4f-f45e782b7725"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:interiorFurniture"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_71fc6665-920d-f9f6-f4d1-4b8d59e8a8b8"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:BuildingFurniture [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_88d22901-2e4f-084e-d00e-a217c9f12159"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "部屋に設置された移動可能な家具（bldg:BuildingFurniture）。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_f4a3e86a-749d-c7f4-08a2-30cf7cf4f960"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:roomInstallation"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_becb0569-930e-dd20-9523-d167633e6db5"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "bldg:IntBuildingInstallatin [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_a603a8bc-8f8c-3613-5b77-8a384853563b"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "部屋に設置された屋内付属物（bldg:IntBuildingInstallation）"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_6012b37c-958d-516e-a47e-e70682327834"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:ifcRoomAttribute"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_a6610048-604a-d629-89b8-b14b0ed32789"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:IfcAttribute [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_646ed6a0-02f1-6b7a-52f3-48705f017eed"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "IDM・MVDで定義されるIFCのクラス及びプロパティセットに含まれる情報。bldg:Roomに付与可能なデータ型は以下とする。"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_ab0fa3a2-4525-76c3-9e31-0fd46a5ac82b"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:IfcPsetSpaceCommon uro:IfcSpace  uro:IfcSpaceBaseQuantity  uro:IfcClassificationReference"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_616293af-c61e-6afc-eb48-0adaa3eb061e"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:indoorRoomAttribute"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_13abf247-adb3-e747-5300-eb961505fbd0"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "uro:IndoorAttribute [0..*]"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_8cf31882-38a4-a36e-6c9d-4aa6c018a9e2"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "屋内ナビゲーションに必要な情報。 bldg:Roomに付与可能なデータ型は以下とする。  uro:IndoorSpaceAttribute  uro:IndoorZoneAttribute  uro:IndoorUserDefinedAttribute"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

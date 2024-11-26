@@ -1,0 +1,67 @@
+{
+    "adapterID": "file:/Volumes/MNFirelight/firelight/packages/metanorma-site-content",
+    "content": {
+        "primaryLanguageID": "ja",
+        "labelInPlainText": "9.4.2  テクスチャの実装仕様",
+        "title": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "9.4.2  テクスチャの実装仕様"
+                }
+            ]
+        },
+        "contentSchemaID": "clause",
+        "contentDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "title",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "9.4.2  テクスチャの実装仕様"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_a01b62f3-e710-641f-5912-a2c01d8209af"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "地物の外観に画像を貼る場合は、アピアランスモデル（app:Appearance）を使用する。アピアランスモデルは、テクスチャとして使用する画像への参照、地物に貼り付けたい画像の部分を切り出すための画像上の座標、切り出した画像の貼り付けたい地物の面への参照により構成する。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_530286b0-37af-761e-778c-2b3898bea2ac"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "画像への参照及び貼り付けたい地物の面への参照は、相対パスを使用する。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_0715aba8-2259-bd35-1656-ef7d50b598ee"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "画像上の座標値の指定は、UV座標を用いる。UV座標とは、横方向をU軸、縦方向をV軸とする2次元の直交座標系に基づく座標であり、その座標値は、左下を原点（0.0, 0.0）、右上を（1.0, 1.0）とする0から1までの小数値で表現される。"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

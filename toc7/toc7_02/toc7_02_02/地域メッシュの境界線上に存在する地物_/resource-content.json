@@ -1,0 +1,55 @@
+{
+    "adapterID": "file:/Volumes/MNFirelight/firelight/packages/metanorma-site-content",
+    "content": {
+        "primaryLanguageID": "ja",
+        "labelInPlainText": "7.2.2.1  地域メッシュの境界線上に存在する地物",
+        "title": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "7.2.2.1  地域メッシュの境界線上に存在する地物"
+                }
+            ]
+        },
+        "contentSchemaID": "clause",
+        "contentDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "title",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "7.2.2.1  地域メッシュの境界線上に存在する地物"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_20ca1c6e-b401-9a6a-c352-fae48efcbe02"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "ファイル単位となる地域メッシュのメッシュの境界線上に存在する地物は分割しない。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_2c2ab038-49fa-acef-dd32-5b7e81e4b2f8"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "複数のメッシュに跨って存在する地物は、それぞれのメッシュに平面投影した形状が含まれる面積の割合を算出し、この割合が最も大きいメッシュに対応するファイルに含む。面積は、小数点2桁（3桁目で四捨五入、単位はm2）で比較する。面積が同じ場合はメッシュ番号の小さい方とする。"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,210 @@
+{
+    "adapterID": "file:/Volumes/MNFirelight/firelight/packages/metanorma-site-content",
+    "content": {
+        "primaryLanguageID": "ja",
+        "labelInPlainText": "8.3  メタデータの作成単位",
+        "title": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "8.3  メタデータの作成単位"
+                }
+            ]
+        },
+        "contentSchemaID": "clause",
+        "contentDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "title",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "8.3  メタデータの作成単位"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_05384ad8-0e0d-da0a-bdcf-357444ac15c6"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "メタデータは、3D都市モデル全体について、一つのメタデータを作成することを原則とする。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_c709a642-e4f8-b744-e9f7-d212852f962c"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "以下の場合には、3D都市モデル全体のメタデータとは別に、対象を限定したメタデータを作成する。"
+                        }
+                    ]
+                },
+                {
+                    "type": "bullet_list",
+                    "content": [
+                        {
+                            "type": "list_item",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_48546152-4bbd-9951-91e5-600be56a1555"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "原典資料の管理者が3D都市モデルの整備主体とは異なる場合（ただし、原典資料がオープンデータである場合は除く。）"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "bullet_list",
+                                    "content": [
+                                        {
+                                            "type": "list_item",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_09a4ee47-9ec5-da06-26ab-73f2624f7070"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "洪水浸水想定区域、津波浸水想定、高潮浸水想定区域、内水浸水想定区域及び土砂災害警戒区域にかかる原典資料として、"
+                                                        },
+                                                        {
+                                                            "type": "external_link",
+                                                            "attrs": {
+                                                                "href": "https://nlftp.mlit.go.jp"
+                                                            },
+                                                            "content": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "国土数値情報（オープンデータ）"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": "ではなく、河川管理者等から貸与されたデータを使用した場合は、それぞれメタデータを作成する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "list_item",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_fda46ea0-1b4c-5c0e-13bc-e5631ecdde37"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "建築物モデル（LOD4）の原典資料として、整備主体以外の施設管理者から貸与されたBIMモデル等を使用した場合は、建築物モデル（LOD4）に対するメタデータを作成する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "list_item",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_ad9c591c-34f8-c124-5017-1f5068b6600b"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "3D都市モデルの整備事業者が対象地物によって異なる場合"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "bullet_list",
+                                    "content": [
+                                        {
+                                            "type": "list_item",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_cb2acd44-1136-5fc1-ed07-649a2401c905"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "整備事業者毎に作成する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "list_item",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_b4d739ae-5799-6221-6d0a-6bc059298aff"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "空間参照系が日本測地系2011 における経緯度座標系と東京湾平均海面を基準とする標高の複合座標参照系以外の場合"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "bullet_list",
+                                    "content": [
+                                        {
+                                            "type": "list_item",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_5f32bfec-ffda-694e-6fee-4203d9b62359"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "地下埋設物モデルは空間参照系が日本測地系2011における平面直角座標系と東京湾平均海面を基本とする標高の複合座標参照系であるため、地下埋設物モデルに対するメタデータを作成する。"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

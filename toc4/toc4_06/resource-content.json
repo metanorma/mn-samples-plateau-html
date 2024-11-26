@@ -1,0 +1,55 @@
+{
+    "adapterID": "file:/Volumes/MNFirelight/firelight/packages/metanorma-site-content",
+    "content": {
+        "primaryLanguageID": "ja",
+        "labelInPlainText": "4.6  交通（広場）モデルの応用スキーマ",
+        "title": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "4.6  交通（広場）モデルの応用スキーマ"
+                }
+            ]
+        },
+        "contentSchemaID": "clause",
+        "contentDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "title",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "4.6  交通（広場）モデルの応用スキーマ"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_80969296-e289-a7ea-3e3c-3079bb765d35"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "広場は、都市計画法第11条第1項に示される交通施設のうち、「駅前広場」、「自動車ターミナル」及び「交通広場」について、都市計画で定められた施設（都市計画施設）を指す。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_dfdebfa5-73a8-0f33-93f1-0dbc651aa67e"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "広場の「駅前広場」及び「交通広場」は、道路の区域と重複する。この重複する区域に含まれる車道や歩道等のオブジェクトは、交通（道路）モデルの一部であり、かつ、交通（広場）モデルの一部にもなる。車道や歩道等のオブジェクトが二つ重複して存在するのではなく、一つの同じオブジェクトが、交通（道路）モデルと交通（広場）モデルの両方から参照される。"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

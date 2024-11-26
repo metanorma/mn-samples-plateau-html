@@ -1,0 +1,1241 @@
+{
+    "adapterID": "file:/Volumes/MNFirelight/firelight/packages/metanorma-site-content",
+    "content": {
+        "primaryLanguageID": "ja",
+        "labelInPlainText": "7.2.4.3  サブフォルダの作成",
+        "title": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "7.2.4.3  サブフォルダの作成"
+                }
+            ]
+        },
+        "contentSchemaID": "clause",
+        "contentDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "title",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "7.2.4.3  サブフォルダの作成"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_ffec4dd4-f8c3-6213-6d03-0db099bc0e1d"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "3D都市モデルを格納するudxフォルダには、3D都市モデルの応用スキーマに対応するサブフォルダを作成し、各データ製品を格納する。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_3760456e-f007-6550-72bc-4b8075c94971"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "災害リスクモデルについては、災害の種類ごとに分けてサブフォルダ（fld、tnm、htd、ifld、rfld及びlsld）を作成する。また、災害リスクのうち、浸水想定区域のサブフォルダ（fld、tnm、htd、ifld及びrfld）には、さらに区域図ごとのサブフォルダを設ける。サブフォルダを作成する場合は、下表に従い、作成したサブフォルダの一覧を付す。"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_963caa27-bf7d-e5ed-e1a4-009c41cfbc87"
+                    },
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "拡張製品仕様書において災害リスク（浸水）モデルを作成する場合は、以下に示す表を用いて、対応する災害リスク（浸水）モデルのフォルダ構成を示すこと。"
+                        }
+                    ]
+                },
+                {
+                    "type": "bullet_list",
+                    "content": [
+                        {
+                            "type": "list_item",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_57b24f71-e46c-399d-1c55-4cff729593ec"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "洪水浸水想定区域のフォルダ構成"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "list_item",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_6b10ec8a-aecf-2112-1aee-95dd8e4d8810"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "サブフォルダ「fld」の中に、国を示すサブフォルダ「natl」と都道府県を示すサブフォルダ「pref」を作成し、「natl」及び「pref」の中にさらに洪水浸水想定区域図ごとのサブフォルダを作成する。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "list_item",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_cd8b999f-9fa3-0f63-0f55-463957e3e930"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "なお、「natl」と「pref」には、水防法第14条第1項に定める「洪水浸水想定区域」である災害リスク（浸水）モデルを格納する。また、水防法第14条第1項に定める「洪水浸水想定区域」以外の洪水ハザードマップ等に基づく浸水面や、破堤点ごと、時間経過ごとの浸水面を表現する災害リスク（浸水）モデルは、サブフォルダ「org」を作成し、この中にさらに区域図ごとのサブフォルダを作成する。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "list_item",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_deb980be-69a1-21af-4702-22949c0bacbf"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "サブフォルダを作成する場合は、拡張製品仕様書において、下表を用いてサブフォルダ名及びフォルダの説明を示す。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "figure",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_69451e87-7cbf-7fe9-c018-187660145eba"
+                    },
+                    "content": [
+                        {
+                            "type": "figCaption",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "表7-11 — 洪水浸水想定区域のフォルダ構成"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "attrs": {
+                                "colWidths": [
+                                    "21.5686%",
+                                    "19.6078%",
+                                    "58.8236%"
+                                ]
+                            },
+                            "content": [
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "フォルダ名"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "サブフォルダ名"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "フォルダの説明（洪水浸水想定区域図の名称）"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_6aee6702-9e67-e156-3463-b06a93885e4e"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "natl"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_0c1898e1-7709-bb7b-2347-50f799cf13c0"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_238fe9c6-830a-78ca-1bb9-a348bd6d92d1"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_e5c72afa-cedb-c41e-947d-78caf2580a95"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "pref"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_56a024ed-ee42-25f0-ad52-6e049ca749a4"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_11f13a7c-2f0e-9124-bed0-5ff9d3308f71"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_c8516d73-df93-92ff-a14a-27c3756a5a83"
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "org"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_647f39bb-2d4a-40f3-337f-226e2b21a2ef"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_68d2e21c-1e0d-e9d8-29ee-63bde2b5c3d2"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "bullet_list",
+                    "content": [
+                        {
+                            "type": "list_item",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_8bda2392-db8b-64ed-4b9d-d369b3bba26a"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "津波浸水想定のフォルダ構成"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_db5297e6-f641-1599-2ae2-96981ae39a0c"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "サブフォルダ「tnm」の中に、津波浸水想定ごとのサブフォルダを作成する。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_e727c723-7279-a086-db40-c06b4f21913b"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "サブフォルダを作成する場合は、拡張製品仕様書において、下表を用いてサブフォルダ名及びフォルダの説明を示す。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "figure",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_d27b2b0a-947e-ea03-e876-be1d7ba01077"
+                    },
+                    "content": [
+                        {
+                            "type": "figCaption",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "表7-12 — 津波浸水想定のフォルダ構成"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "attrs": {
+                                "colWidths": [
+                                    "25%",
+                                    "75%"
+                                ]
+                            },
+                            "content": [
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "サブフォルダ名"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "フォルダの説明（津波浸水想定の名称）"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_af08a4db-41c9-f430-d141-46e74c5a2f88"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_fae60e6b-ea78-5400-9b31-1f36e9e9f2dd"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_4e24c6a9-93fc-b70e-4913-158c6f351411"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_873ca8c7-b61f-9a80-b4a5-84be761bb936"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "bullet_list",
+                    "content": [
+                        {
+                            "type": "list_item",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_fd456731-a7c0-eccb-f9ad-a96b1bac1e4e"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "高潮浸水想定区域のフォルダ構成"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_9dc2827c-87c5-4e2d-64ca-3d1d393b11f4"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "サブフォルダ「htd」の中に、高潮浸水想定区域図ごとのサブフォルダを作成する。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_42442d6e-42a8-013e-d05c-95ae2c30a178"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "サブフォルダを作成する場合は、拡張製品仕様書において、下表を用いてサブフォルダ名及びフォルダの説明を示す。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "figure",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_6e43b51f-68e3-9079-9654-e7022acb0e2a"
+                    },
+                    "content": [
+                        {
+                            "type": "figCaption",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "表7-13 — 高潮浸水想定区域のフォルダ構成"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "attrs": {
+                                "colWidths": [
+                                    "25%",
+                                    "75%"
+                                ]
+                            },
+                            "content": [
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "サブフォルダ名"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "フォルダの説明（高潮浸水想定区域図の名称）"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_d33bd52e-d87e-3c31-3399-f4cc445d1a74"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_7a449965-d64b-9913-b0fb-218d65810736"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_44436955-a8de-44f0-6889-78ada424af51"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_4910ec2f-0b0d-971c-4084-6c3e848655c2"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "bullet_list",
+                    "content": [
+                        {
+                            "type": "list_item",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_439f988f-cdd3-7b1a-25b5-2f00ced03c4f"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "内水浸水想定区域のフォルダ構成"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_06e7c1bb-807e-d7cd-2c54-78a4e899acb7"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "サブフォルダ「ifld」の中に、内水浸水想定区域図ごとのサブフォルダを作成する。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_4d1e24d0-e4cc-fc2f-0baa-adac11b832e6"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "サブフォルダを作成する場合は、拡張製品仕様書において、下表を用いてサブフォルダ名及びフォルダの説明を示す。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "figure",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_34e6fad6-d5fd-ac7f-732b-a1c498a708ce"
+                    },
+                    "content": [
+                        {
+                            "type": "figCaption",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "表7-14 — 内水浸水想定区域図のフォルダ構成"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "attrs": {
+                                "colWidths": [
+                                    "25%",
+                                    "75%"
+                                ]
+                            },
+                            "content": [
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "サブフォルダ名"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "フォルダの説明（内水浸水想定区域図の名称）"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_e24a99a9-b459-7227-ef9c-467d60d06a2f"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_42afa12b-86d3-7c3d-097d-43cc49a945bc"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_3416cefa-cd2a-6995-a465-374f6274c177"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_54b731e6-eeee-7496-3578-e0e021c1f1b4"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "bullet_list",
+                    "content": [
+                        {
+                            "type": "list_item",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_2e8a6169-a7f1-a057-2d3c-5cad5980c71c"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "ため池ハザードマップのフォルダ構成"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_eb4936b0-3434-ecc2-c66a-1898788f161f"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "サブフォルダ「rfld」の中に、ため池ハザードマップごとのサブフォルダを作成する。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                        "resourceID": "urn:metanorma-xml-id:_ff674905-1ad9-b588-d3ae-e38e993632c4"
+                                    },
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "サブフォルダを作成する場合は、拡張製品仕様書において、下表を用いてサブフォルダ名及びフォルダの説明を示す。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "figure",
+                    "attrs": {
+                        "resourceID": "urn:metanorma-xml-id:_13fecef1-16e2-2413-5b3e-46e961bf1dbb"
+                    },
+                    "content": [
+                        {
+                            "type": "figCaption",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "表7-15 — ため池ハザードマップのフォルダ構成"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "attrs": {
+                                "colWidths": [
+                                    "25%",
+                                    "75%"
+                                ]
+                            },
+                            "content": [
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "サブフォルダ名"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_header",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": ""
+                                                    },
+                                                    "content": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "フォルダの説明（ため池ハザードマップの名称）"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_10a92081-e8ee-c6b8-773e-74b0f7d23c65"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_ee493753-5d30-b2cc-c17c-5c1f943b3dc8"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table_row",
+                                    "content": [
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_b703b435-bb60-7873-0035-10d76a1fdd9b"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table_cell",
+                                            "attrs": {
+                                                "colspan": null,
+                                                "rowspan": null,
+                                                "colwidth": null,
+                                                "background": null
+                                            },
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                        "resourceID": "urn:metanorma-xml-id:_6a08a95b-6b6b-a790-ba7a-b484ade38b64"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
